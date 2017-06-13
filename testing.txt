@@ -1,5 +1,6 @@
 var myObject = {
   "hello": apple
+  "bear" : coor
 };
 
 function removeProperty(obj, prop) {
