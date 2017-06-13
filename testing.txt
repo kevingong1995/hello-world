@@ -1,0 +1,14 @@
+var myObject = {
+  "hello": apple
+};
+
+function removeProperty(obj, prop) {
+  if(obj.hasOwnProperty(prop))
+    {
+      delete obj.prop;
+      return object.hasOwnProperty(prop);
+    }
+  return null;
+}
+
+removeProperty(myObject, "hello");
